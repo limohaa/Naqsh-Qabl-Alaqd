@@ -23,7 +23,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'الالتزام بالفرائض مؤشر محوري للتوافق الديني العملي.',
   },
   {
@@ -34,7 +34,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'يقيس مكانة المرجعية الدينية في اتخاذ القرار دون الدخول في تفاصيل فقهية.',
   },
   {
@@ -45,7 +45,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'النمو الديني المشترك عامل قرب لا عامل فصل.',
   },
   {
@@ -56,7 +56,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'اختلاف الممارسة قد يولّد توترًا يوميًا؛ السؤال وصفي لا حكمي.',
   },
   {
@@ -67,7 +67,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'يربط الدين بالسلوك المالي، وهو من أكثر مواطن الخلاف العملية.',
   },
 
@@ -85,7 +85,7 @@ export const QUESTIONS: Question[] = [
     ],
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'ترتيب السكن من أكثر أسباب الخلاف المبكر بين الزوجين والأصهار.',
   },
   {
@@ -96,7 +96,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'يقيس حدود تدخل الأهل وهو محور حساس في السياق المغربي.',
   },
   {
@@ -107,7 +107,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 2,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'برّ الوالدين مسؤولية متوقعة؛ توضيح التوقعات يقي من الصدام.',
   },
   {
@@ -118,7 +118,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'وتيرة صلة الرحم تؤثر على إيقاع الحياة الأسبوعي.',
   },
 
@@ -131,7 +131,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'غياب الشفافية المالية من أبرز أسباب فقدان الثقة.',
   },
   {
@@ -146,7 +146,7 @@ export const QUESTIONS: Question[] = [
     ],
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'نمط إدارة المال يكشف توقعات الاستقلال المالي.',
   },
   {
@@ -163,7 +163,7 @@ export const QUESTIONS: Question[] = [
     ],
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'التباين في عادات الإنفاق مصدر احتكاك يومي.',
   },
   {
@@ -174,7 +174,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'مسألة الربا مبدئية لدى كثيرين؛ السؤال وصفي لأهميتها لدى الطرف.',
   },
   {
@@ -185,7 +185,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'توقعات العمل والمساهمة المالية تتقاطع مع الأدوار والمال معًا.',
   },
 
@@ -204,7 +204,7 @@ export const QUESTIONS: Question[] = [
     ],
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'الرغبة في الإنجاب من أوضح عوامل التوافق أو الافتراق.',
   },
   {
@@ -220,7 +220,7 @@ export const QUESTIONS: Question[] = [
     ],
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'توقيت الإنجاب يحتاج اتفاقًا مبكرًا.',
   },
   {
@@ -231,7 +231,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'منهج التربية الديني محور أساسي في السياق.',
   },
   {
@@ -247,7 +247,7 @@ export const QUESTIONS: Question[] = [
     ],
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'اختيار مسار التعليم قرار مشترك طويل الأمد.',
   },
 
@@ -260,7 +260,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 2,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'توقعات تقاسم المهام مصدر شائع للاحتكاك اليومي.',
   },
   {
@@ -271,7 +271,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'الوضوح المسبق يقلّل التوقعات الضمنية غير المتطابقة.',
   },
   {
@@ -282,7 +282,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'يكشف التوقعات حول توزيع رعاية الأبناء.',
   },
   {
@@ -293,7 +293,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 2,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'الدعم المتبادل للطموح يرتبط برضا طويل الأمد.',
   },
 
@@ -306,7 +306,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 2,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'أسلوب إدارة الخلاف من أقوى مؤشرات استقرار العلاقة.',
   },
   {
@@ -317,7 +317,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'التوافق على آلية الوساطة يقي من تفاقم الخلاف.',
   },
   {
@@ -328,7 +328,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 2,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'القدرة على التعبير الصريح أساس للتفاهم.',
   },
   {
@@ -339,7 +339,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'توقيت معالجة المشكلات يؤثر على تراكمها.',
   },
 
@@ -352,7 +352,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'العادات الصحية تؤثر على نمط الحياة المشترك.',
   },
   {
@@ -363,7 +363,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'الفحص الطبي قبل الزواج مسألة وقائية مهمة ومشروعة.',
   },
   {
@@ -380,7 +380,7 @@ export const QUESTIONS: Question[] = [
     ],
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'التباين في الميل الاجتماعي يؤثر على الإيقاع اليومي.',
   },
   {
@@ -391,7 +391,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'حدود الخصوصية الرقمية من مواضيع الخلاف الحديثة.',
   },
 
@@ -404,7 +404,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'الاستعداد للانتقال الداخلي يؤثر على المسار المهني المشترك.',
   },
   {
@@ -415,7 +415,7 @@ export const QUESTIONS: Question[] = [
     options: likertAgreement,
     weight: 2,
     isDealbreakerCandidate: true,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'موضوع الهجرة قد يكون فارقًا جوهريًا في مسار الحياة.',
   },
   {
@@ -426,7 +426,7 @@ export const QUESTIONS: Question[] = [
     options: likertImportance,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'يتقاطع مع الأسرة لكنه يخص قرار الموقع تحديدًا.',
   },
   {
@@ -437,7 +437,7 @@ export const QUESTIONS: Question[] = [
     options: binaryYesNo,
     weight: 1,
     isDealbreakerCandidate: false,
-    status: 'DRAFT',
+    status: 'APPROVED',
     rationale: 'يوضح وجود طموح تطويري قد يحتاج دعمًا وتنسيقًا.',
   },
 ];

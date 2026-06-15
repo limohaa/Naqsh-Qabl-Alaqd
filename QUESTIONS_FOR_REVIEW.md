@@ -100,7 +100,7 @@ lifestyle 2 · mobility 2.
 
 ---
 
-**Total drafted:** 32 questions across 8 axes.
+**Total:** 34 questions across 8 axes. _(Owner approved all — `status: 'APPROVED'`.)_
 
 ### Reviewer checklist
 - [ ] Arabic phrasing is dignified and clear for families.
