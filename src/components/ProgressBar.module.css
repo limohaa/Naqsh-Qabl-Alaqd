@@ -1,0 +1,27 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--c-muted);
+}
+
+.track {
+  inline-size: 100%;
+  block-size: 8px;
+  background: var(--c-surface-alt);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fill {
+  block-size: 100%;
+  background: linear-gradient(90deg, var(--c-primary), var(--c-primary-soft));
+  border-radius: 999px;
+  transition: inline-size 0.25s ease;
+}

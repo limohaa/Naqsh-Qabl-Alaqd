@@ -1,0 +1,32 @@
+.empty {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--c-high);
+  font-weight: 600;
+  background: var(--c-high-bg);
+  border-color: var(--c-high);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.item {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+  border-inline-start: 4px solid var(--c-low);
+  background: var(--c-low-bg);
+}
+
+.itemHead {
+  font-size: 1.4rem;
+  color: var(--c-low);
+  line-height: 1.4;
+}

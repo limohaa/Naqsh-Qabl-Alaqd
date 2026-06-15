@@ -1,0 +1,6 @@
+.wrap {
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  /* Recharts renders LTR internally; keep the chart visually centered. */
+  direction: ltr;
+}
