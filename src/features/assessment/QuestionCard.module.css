@@ -1,0 +1,96 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.text {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin: 0;
+  color: var(--c-ink);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: start;
+  padding-block: 0.85rem;
+  padding-inline: 1rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--c-border);
+  background: var(--c-surface);
+  font-size: 1.02rem;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+
+.option:hover {
+  border-color: var(--c-primary-soft);
+  background: var(--c-surface-alt);
+}
+
+.optionSelected {
+  border-color: var(--c-primary);
+  background: var(--c-high-bg);
+}
+
+.radio {
+  inline-size: 18px;
+  block-size: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--c-muted);
+  flex-shrink: 0;
+  position: relative;
+}
+
+.optionSelected .radio {
+  border-color: var(--c-primary);
+}
+
+.optionSelected .radio::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: var(--c-primary);
+}
+
+.flagRow {
+  border-block-start: 1px solid var(--c-border);
+  padding-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.flagLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.flagLabel input {
+  inline-size: 18px;
+  block-size: 18px;
+  accent-color: var(--c-low);
+}
+
+.flagLabel input:disabled {
+  cursor: not-allowed;
+}

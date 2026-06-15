@@ -1,0 +1,32 @@
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.legend {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.overall {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1.25rem;
+  padding-inline: 1.5rem;
+  border-radius: var(--radius);
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 2px solid currentColor;
+}
+
+.overall strong {
+  font-size: 2.2rem;
+}

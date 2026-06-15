@@ -1,0 +1,33 @@
+.toggle {
+  position: relative;
+  inline-size: 52px;
+  block-size: 30px;
+  border-radius: 999px;
+  border: 1px solid var(--c-border);
+  background: var(--c-surface-alt);
+  padding: 0;
+  transition: background 0.18s ease;
+  flex-shrink: 0;
+}
+
+.toggle.on {
+  background: var(--c-primary);
+  border-color: var(--c-primary);
+}
+
+.knob {
+  position: absolute;
+  inset-block-start: 3px;
+  inset-inline-start: 3px;
+  inline-size: 22px;
+  block-size: 22px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: inset-inline-start 0.18s ease;
+}
+
+/* In RTL, "on" slides the knob toward the inline-end (visually left). */
+.toggle.on .knob {
+  inset-inline-start: 27px;
+}
